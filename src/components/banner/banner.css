@@ -1,0 +1,42 @@
+.banner-container {
+  background-color: var(--template-primary-color);
+  color: var(--text-color);
+  height: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner-container h1,
+img,
+p,
+.banner-btn {
+  padding: 0.2rem;
+  margin: auto;
+}
+.banner-btn {
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: 1px solid var(--title-primary-color);
+  color: var(--title-primary-color);
+}
+.banner-btn:hover {
+  background-color: var(--title-primary-color);
+  color: white;
+}
+@media (max-width: 768px) {
+  .banner-container {
+    background-color: var(--template-primary-color);
+    color: var(--text-color);
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner-btn {
+    margin-bottom: 0.2rem;
+  }
+}

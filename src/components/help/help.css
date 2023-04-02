@@ -1,0 +1,7 @@
+p {
+  padding: 10px;
+  text-align: center;
+}
+a {
+  color: var(--title-primary-color);
+}
