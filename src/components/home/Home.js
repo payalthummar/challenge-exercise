@@ -26,7 +26,7 @@ export default function Home() {
         style={{ background: themeStyles.bg, color: themeStyles.text }}
       >
         <div className="card">
-          <h2>Less to Learn</h2>
+          <p className="title">Less to Learn</p>
           <p>
             You don't need to learn and configure many build tools. Instant
             reloads help you focus on development. When it's time to deploy,
@@ -34,7 +34,7 @@ export default function Home() {
           </p>
         </div>
         <div className="card">
-          <h2>Only One Dependency</h2>
+          <p className="title">Only One Dependency</p>
           <p>
             Your app only needs one build dependency. We test Create React App
             to make sure that all of its underlying pieces work together
@@ -42,7 +42,7 @@ export default function Home() {
           </p>
         </div>
         <div className="card">
-          <h2>No Lock-In</h2>
+          <p className="title">No Lock-In</p>
           <p>
             Under the hood, we use webpack, Babel, ESLint, and other amazing
             projects to power your app. If you ever want an advanced
