@@ -6,11 +6,12 @@
 /* Card container css */
 .card {
   width: 30%;
-  padding: 3%;
-  border: 3px solid var(--card-border-color);
+  padding: 1rem;
+  border: 1px solid var(--card-border-color);
   background-color: var(--card-background-color);
   border-radius: 10px;
   margin: 0.5rem;
+  text-align: center;
 }
 .card h2 {
   margin-bottom: 1rem;
@@ -29,6 +30,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .info {
   margin: 0 auto;
